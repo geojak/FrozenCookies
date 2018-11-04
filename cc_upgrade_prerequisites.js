@@ -137,6 +137,11 @@ FrozenCookies.preferenceValues = {
         'default':0,
         'extras':'<a class="option" id="minCpSMult" onclick="updateCpSMultMin(\'minCpSMult\');">x${minCpSMult} minimum Frenzy</a>'
     },
+    'spellPredict':{
+        'hint':'Display next 4 outcomes of FtHoF on Spellbutton',
+        'display':["Forecast OFF","Forecast ON"],
+        'default':0,
+    },
     'holdSEBank':{
         'hint':'Maintain a bank for Spontaneous Edifice (already enabled if Auto Casting SE)',
         'display':["SE Bank OFF","SE Bank ON"],
